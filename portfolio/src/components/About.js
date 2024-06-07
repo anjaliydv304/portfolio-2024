@@ -8,8 +8,8 @@ const About=()=>{
         About <span className="text-neutral-500">Me</span> 
         </h1>
         <div className="flex flex-wrap">
-        <div className="w-full lg:w-1/2 ">
-        <div className="flex justify-center lg:justify-center">
+        <div className="w-full lg:ww-1/2">
+        <div className="justify-center lg:justify-center">
             <p className="my-2 maxw-xl py-6">yukgdsxjhmbkhuvvg mhghkjn, jh,jbmbjgjkjhcdakhncjsdnxkjbmjxbmmbxMbmdb xJBHCB Mx,zkdncklljcldsjcnjl;lj;lodsHc h1fshkbkbckdclllllllllllllllllllllllllllllllllllkcdbsuhcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbkj nhjdhkakaskssxnkjnklklmnlknlknl
             </p>
         </div>
