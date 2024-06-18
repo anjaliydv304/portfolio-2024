@@ -1,5 +1,5 @@
 import React from "react";
-
+import {motion} from "framer-motion";
 const About=()=>{
     return(
 
@@ -8,12 +8,17 @@ const About=()=>{
         About <span className="text-neutral-500">Me</span> 
         </h1>
         <div className="flex flex-wrap">
-        <div className="w-full lg:ww-1/2">
+        <motion.div
+        whileInView={{opacity:1,x:0}}
+        initial={{opacity:0,x:100}}
+        transition={{duration:0.5}}
+
+        className="w-full lg:ww-1/2">
         <div className="justify-center lg:justify-center">
             <p className="my-2 maxw-xl py-6">yukgdsxjhmbkhuvvg mhghkjn, jh,jbmbjgjkjhcdakhncjsdnxkjbmjxbmmbxMbmdb xJBHCB Mx,zkdncklljcldsjcnjl;lj;lodsHc h1fshkbkbckdclllllllllllllllllllllllllllllllllllkcdbsuhcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbkj nhjdhkakaskssxnkjnklklmnlknlknl
             </p>
         </div>
-        </div>
+        </motion.div>
         </div>
         
         </div>

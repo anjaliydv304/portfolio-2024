@@ -5,6 +5,7 @@ import About from './components/About';
 import Technologies from './components/Technologies';
 import Education from './components/Education';
 import Projects from './components/Projects';
+import Contact from './components/Contacts';
 const App=()=> {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased 
@@ -20,6 +21,7 @@ const App=()=> {
      <Technologies/>
      <Education/>
      <Projects/>
+     <Contact/>
      </div>
       
     </div>
