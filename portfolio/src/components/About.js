@@ -1,5 +1,6 @@
 import React from "react";
 import {motion} from "framer-motion";
+import { ABOUT } from "../constants/const";
 const About=()=>{
     return(
 
@@ -13,9 +14,10 @@ const About=()=>{
         initial={{opacity:0,x:100}}
         transition={{duration:0.5}}
 
-        className="w-full lg:ww-1/2">
+        className="w-full lg:w-6/7">
         <div className="justify-center lg:justify-center">
-            <p className="my-2 maxw-xl py-6">yukgdsxjhmbkhuvvg mhghkjn, jh,jbmbjgjkjhcdakhncjsdnxkjbmjxbmmbxMbmdb xJBHCB Mx,zkdncklljcldsjcnjl;lj;lodsHc h1fshkbkbckdclllllllllllllllllllllllllllllllllllkcdbsuhcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbkj nhjdhkakaskssxnkjnklklmnlknlknl
+            <p className="leading-loose my-2 maxw-2xl py-6 pr-12">
+            {ABOUT}
             </p>
         </div>
         </motion.div>

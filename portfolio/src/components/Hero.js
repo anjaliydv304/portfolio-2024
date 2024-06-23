@@ -1,6 +1,7 @@
 import React from "react";
 import {motion} from "framer-motion";
-
+import { HERO } from "../constants/const";
+import pic from "../assets/dev.png";
 const container=(delay)=>({
     hidden:{x:-100,opacity:0},
     visible:{
@@ -24,19 +25,25 @@ const Hero=()=>{
         Anjali Yadav
         </motion.h1>
         <motion.span
-        variants={container(0.5)}
+        variants={container(0)}
         initial="hidden"
         animate="visible"
-        className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xll tracking-tight text-transparent">
+        className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
         Frontend Developer</motion.span>
         <motion.p
-        variants={container(1)}
+        variants={container(0)}
         initial="hidden"
         animate="visible" 
-        className="my-2 max-w-xl py-6 font-ligt tracking-tighter">
-         I'm a passionate and dedicated Front-End Developer. With a strong foundation in HTML, CSS, and modern JavaScript frameworks like React.js, I specialize in crafting seamless, user-friendly web interfaces. Leveraging the power of Tailwind CSS, I bring dynamic and responsive designs to life, ensuring a visually appealing and intuitive user experience.
+        className="my-2 max-w-2xl py-6 font-ligt tracking-tighter">
+        {HERO}
         </motion.p>
         </div>
+        </div>
+        <div className="w-full lg:w-1/2 lg:p-6">
+        <div className="flex justify-center">
+        <img src={pic} alt="pic"/>
+        </div>
+
         </div>
         </div>
         </div>
