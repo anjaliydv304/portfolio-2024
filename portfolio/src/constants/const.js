@@ -36,24 +36,27 @@ export const PROJECTS=[
     {
         title:"Lead-tracker chrome extension",
         image:project1,
-        description:"...",
-        technologies:["HTML","CSS","Javascript"]
+        description:"Leads Tracker is a simple and efficient Chrome extension designed to help you save and manage your leads. With this extension, you can easily save the URLs of the tabs you are currently visiting, view them later, and clear your leads list when necessary. The extension leverages local storage to ensure your data is retained across browser sessions.",
+        technologies:["HTML","CSS","Javascript"],
+        link:"https://github.com/anjaliydv304/lead-tracker-ce"
     },
     {
         title:"Blackjack Game",
         image:project2,
-        description:"....",
-        technologies:["HTML","CSS","Javascript"]
+        description:"This is a simple Blackjack game implemented using HTML, CSS, and JavaScript. The game allows you to draw cards, calculate the sum, and determine whether you have a Blackjack, are still in the game, or have lost.",
+        technologies:["HTML","CSS","Javascript"],
+        link:"https://black-jack-cards-game.netlify.app/"
     },
     {
-        title:"Cart App",
+        title:"My Wish List App",
         image:project3,
-        description:"....",
-        technologies:["HTML","CSS","Javascript","firebase"]
+        description:"A simple and interactive web application for creating and managing a wish list. Built using HTML, CSS, JavaScript, and Firebase Realtime Database, this project allows users to add, view, and remove items from their wish list.",
+        technologies:["HTML","CSS","Javascript","Firebase"],
+        link:"https://mywish-list.netlify.app/"
     }
 ]
 export const CONTACT={
-    address:"Shivkuti,Allahabad,UTTAR PRADESH",
-    phoneNo:"9336416906",
+    linkedin:"",
+    twitter:"",
     email:"anjaliydv611@gmail.com"
 }

@@ -13,9 +13,9 @@ const Navbar=()=>{
         <img src={icon} alt="logo"/>
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin/>
-        <FaGithub/>
-        <FaInstagram/>
+        <a href="http://www.linkedin.com/in/anjali-yadav-85985a244"><FaLinkedin/></a>
+        <a href="https://github.com/anjaliydv304"><FaGithub/></a>
+        <a href="https://www.instagram.com/anjaliiiy.__/"><FaInstagram/></a>
         
         
         </div>

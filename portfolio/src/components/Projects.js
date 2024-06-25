@@ -30,8 +30,17 @@ const Projects = () => {
                 className='mb-6 rounded'
               />
             </motion.div>
-            <div className='w-full max-w-xl lg:w-3/4'>
-              <h6 className='mb-2 font-semibold text-lg'>{project.title}</h6>
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 1 }}
+              className='w-full max-w-xl lg:w-3/4'
+            >
+              <h6 className='mb-2 font-semibold text-lg'>
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className='text-inherit no-underline'>
+                  {project.title}
+                </a>
+              </h6>
               <p className='mb-4 text-neutral-400'>{project.description}</p>
               <div className='flex flex-wrap'>
                 {project.technologies.map((tech, techIndex) => (
@@ -43,7 +52,7 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-            </div>
+            </motion.div>
           </div>
         ))}
       </div>

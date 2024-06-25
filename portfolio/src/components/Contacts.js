@@ -11,7 +11,7 @@ const Contact=()=>{
     className="my-10 text-center text-4xl">
     Get in Touch</motion.h1>
     <div className="flex items-center justify-center">
-    <div classname="text-center tracking-tighter">
+    <div className="text-center tracking-tighter">
      <motion.p
      whileInView={{opacity:1,x:0}} 
      initial={{opacity:0,x:-100}} 
